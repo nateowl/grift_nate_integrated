@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*basic reset*/
+/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
+
+div,p,body,header,footer,section,article,nav
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: none; /*Remove border if image is a link*/
+	margin: 0;
+	padding: 0;
+}
+
+/*html selectors*/
+
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+
+/*a:link is for not visited(standard unclicked link),
+a:visited is for visited, and just a applies to both.*/
+/*a will also style anchor links*/
+
+a:link, a:visited
+{
+ 	text-decoration:none;
+ 	color: inherit;
+}
+
+a:hover, a:active
+{
+	text-decoration:none;
+}
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden
+{
+	display: none;
+}
+
+/*Header*/
