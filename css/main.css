@@ -83,11 +83,11 @@ h2 {
 
 .headerNav {
 	margin: 0px auto;
-	width: 600px;
+	width: 550px;
 	display: flex;
 	flex-direction: row;
   justify-content: space-around;
-	font-size: 15px;
+	font-size: 13px;
 	color: #cecece;
 }
 
@@ -170,8 +170,8 @@ h2 {
 .computerWireframe {
 	background-image: url("../images/computer_wireframe.svg");
 	margin: 10px 0px 0px 20px;
-	width: 300px;
-	height: 300px;
+	width: 350px;
+	height: 350px;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -210,7 +210,92 @@ h2 {
 	font-size: 13px;
 }
 
+.fastservice {
+	background: #333333;
+	padding: 50px 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 
+.fast {
+	width: 460px;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.fast h3 {
+	color: #cecece;
+	width: 220px;
+	border-top: 6px solid;
+	border-image:
+	 linear-gradient(to right, #005a87, #1088c4) 1 1 100%;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	margin-right: 70px;
+	font-size: 20px;
+	margin-left: auto;
+}
+
+.fast p {
+	color: #cecece;
+	font-size: 16px;
+	margin-right: 70px;
+}
+.fastImg {
+	width: 50%;
+	margin-left: 20px;
+}
+
+
+.button {
+	padding: 15px;
+	color: #cecece;
+	font-size: 15px;
+	font-weight: bold;
+	background-image: linear-gradient(to right, #006ea6, #1088c4);
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, .3);
+}
+
+.mockups {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #cecece;
+	text-align: center;
+}
+
+.mockups a {
+	color: #cecece;
+}
+
+.mockups a:hover {
+	color: #e3e3e3;
+}
+
+.mockups img {
+	-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, .5);
+}
+
+.mockups h2 {
+	color: #333333;
+	font-size: 24px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.mockups p {
+	margin-bottom: 40px;
+	font-size: 14px;
+}
 /*End of Index*/
 
 /*Footer*/
@@ -236,6 +321,7 @@ h2 {
 .copyright {
 	font-size: 12px;
 	padding-top: 30px;
+	text-align: center;
 }
 
 /*Footer Close*/
