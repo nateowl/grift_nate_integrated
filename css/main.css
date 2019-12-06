@@ -91,6 +91,16 @@ h2 {
 	color: #cecece;
 }
 
+.headerNav a {
+	padding: 8px 10px;
+	border-radius: 2px;
+}
+
+.headerNav a:hover {
+	color: #f5f5f5;
+
+}
+
 .socialMedia {
 	position: relative;
 	right: 10px;
@@ -99,6 +109,10 @@ h2 {
 	width: 80px;
 	color: #cecece;
 	font-size: 20px;
+}
+
+.socialMedia a:hover {
+	color: #f5f5f5;
 }
 
 .headerImage {
@@ -297,6 +311,38 @@ h2 {
 	font-size: 14px;
 }
 /*End of Index*/
+
+
+/*About US */
+
+.age {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 100px;
+	background: #333333;
+	color: #cecece;
+	font-size: 30px;
+}
+
+.year {
+	font-size: 60px;
+	background: -webkit-linear-gradient(#005a87, #1088c4);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	border-bottom: 5px solid;
+  -webkit-border-image:
+	-webkit-linear-gradient(#005a87, #1088c4) 1 1 100%;
+  -o-border-image:
+	-o-linear-gradient(#005a87, #1088c4) 1 1 100%;
+  border-image:
+	linear-gradient(#005a87, #1088c4) 1 1 100%;
+	margin-left: 20px;
+}
+
+
+/*End of About US */
 
 /*Footer*/
 .footerContainer {
