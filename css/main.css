@@ -126,6 +126,8 @@ h2 {
 	flex-direction: row;
 	border-top: 3px solid;
 	border-bottom: 3px solid;
+	border-left-width: 0;
+	border-right-width: 0;
 	border-image:
 	 linear-gradient(to right, #005a87, #1088c4, #666666, #333333) 1 1 100%;
 
@@ -172,6 +174,9 @@ h2 {
 	color: #cecece;
 	width: 170px;
 	border-top: 6px solid;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
 	border-image:
 	 linear-gradient(to right, #005a87, #1088c4) 1 1 100%;
 	margin-bottom: 50px;
@@ -216,6 +221,9 @@ h2 {
 	margin: 20px;
 	padding: 5px;
 	border-bottom: 4px solid;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
 	border-image:
 	 linear-gradient(to right, #005a87, #1088c4) 1 1 100%;
 }
@@ -246,6 +254,9 @@ h2 {
 	color: #cecece;
 	width: 220px;
 	border-top: 6px solid;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
 	border-image:
 	 linear-gradient(to right, #005a87, #1088c4) 1 1 100%;
 	margin-bottom: 20px;
@@ -332,10 +343,9 @@ h2 {
  	-webkit-background-clip: text;
  	-webkit-text-fill-color: transparent;
  	border-bottom: 5px solid;
-  -webkit-border-image:
-	-webkit-linear-gradient(#005a87, #1088c4) 1 1 100%;
-  -o-border-image:
-	-o-linear-gradient(#005a87, #1088c4) 1 1 100%;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
   border-image:
 	linear-gradient(#005a87, #1088c4) 1 1 100%;
 	margin-left: 20px;
@@ -365,7 +375,10 @@ h2 {
 	font-size: 20px;
 	margin-bottom: 20px;
 	padding-bottom: 10px;
-	border-bottom: 2px solid;
+	border-bottom: 2px solid red;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
 	border-image:
 	 linear-gradient(to right, #005a87, #1088c4) 1 1 100%;
 
